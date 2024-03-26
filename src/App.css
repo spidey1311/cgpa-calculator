@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.app {
+  display: flex;
+  margin-bottom: 250px;
+  margin-top: 50px;
+  border: 1px solid white;
+  padding-block: 1rem;
+  width: 95%;
+  max-width: 900px;
+  margin: auto;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.index {
+  width: 20px;
+}
+
+.links {
+  margin-top: 50px;
+}
+
+.git {
+  margin-right: 10px;
+  filter: invert(100);
+}
+
+.course {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-block: 4px;
+
+  width: 90%;
+  max-width: 1000px;
+}
+
+.score {
+  position: absolute;
+}
+
+@media screen and (max-width: 600px) {
+
+  .inc {
+    margin-right: 5px;
+  }
+}
+
+.inc {
+  margin-right: 20px;
+}
+
+.grade {
+  padding: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+.info {
+  max-width: 800px;
+  width: 90%;
+}
+.form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.courses_no {
+  width: 150px;
+  margin-right: 8px;
+  padding: 12px;
+  font-family: "Poppins", sans-serif;
+}
+
+.gp {
+  margin-top: 15px;
+}
+
+.unit {
+  border: 1px solid white;
+  min-width: 25px;
+  padding: 12px;
+}
